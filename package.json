@@ -10,8 +10,12 @@
     },
     "dependencies": {
         "@auth0/auth0-vue": "^1.0.2",
+        "chart.js": "^4.1.1",
         "pinia": "^2.0.28",
+        "primeflex": "^3.3.0",
+        "primeicons": "^6.0.1",
         "primevue": "^3.21.0",
+        "sass": "^1.57.0",
         "vue": "^3.2.45",
         "vue-router": "^4.1.6"
     },
