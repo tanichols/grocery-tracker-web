@@ -7,7 +7,7 @@
                     <RouterLink to="/">Home</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/about">About</RouterLink>
+                    <RouterLink to="/dashboard">Dashboard</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/profile">Profile</RouterLink>
@@ -21,7 +21,7 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import TopBar from './components/layout/TopBar.vue';
+import TopBar from './components/layout/TopBar.vue'
 
 export default {
     components: {
