@@ -7,7 +7,7 @@
                     <RouterLink to="/">Home</RouterLink>
                 </li>
                 <li>
-                    <RouterLink to="/about">About</RouterLink>
+                    <RouterLink to="/dashboard">Dashboard</RouterLink>
                 </li>
                 <li>
                     <RouterLink to="/profile">Profile</RouterLink>

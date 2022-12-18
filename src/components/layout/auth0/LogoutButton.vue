@@ -1,7 +1,7 @@
 <template>
-    <button @click="logout">Log out</button>
+    <Button @click="logout">Log out</Button>
 </template>
-  
+
 <script>
 export default {
     methods: {

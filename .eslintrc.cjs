@@ -25,6 +25,8 @@ module.exports = {
                 "max": 1
             }
         }],
-        "vue/singleline-html-element-content-newline": "off"
+        "vue/singleline-html-element-content-newline": "off",
+        "vue/multi-word-component-names": "off",
+        "vue/no-reserved-component-names": "off"
     }
 }

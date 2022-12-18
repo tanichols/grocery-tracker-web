@@ -4,10 +4,10 @@
         <LogoutButton v-else />
     </div>
 </template>
-  
+
 <script>
-import LoginButton from '../auth0/LoginButton.vue'
-import LogoutButton from '../auth0/LogoutButton.vue'
+import LoginButton from './auth0/LoginButton.vue'
+import LogoutButton from './auth0/LogoutButton.vue'
 
 export default {
     components: {

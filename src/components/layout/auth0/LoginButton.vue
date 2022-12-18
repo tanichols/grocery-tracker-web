@@ -1,7 +1,7 @@
 <template>
-    <button @click="login">Log in</button>
+    <Button @click="login">Log in</Button>
 </template>
-  
+
 <script>
 export default {
     methods: {
