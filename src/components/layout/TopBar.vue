@@ -1,23 +1,22 @@
 <template>
-    <div>
-        <LoginButton v-if="!isAuthenticated" />
-        <LogoutButton v-else />
+    <div class="topbar p-3 surface-300 flex">
+        <router-link to="/" class="topbar-logo">
+            <img src="/images/logo.svg" alt="Grocery Tracker">
+        </router-link>
+
+        <div class="layout-topbar-menu">
+            <Button icon="pi pi-check" class="p-button-rounded p-button-text" />
+            <LoginButton />
+        </div>
     </div>
 </template>
 
 <script>
-import LoginButton from './auth0/LoginButton.vue'
-import LogoutButton from './auth0/LogoutButton.vue'
+import LoginButton from './LoginButton.vue'
 
 export default {
     components: {
-        LoginButton,
-        LogoutButton
-    },
-    data: function () {
-        return {
-            isAuthenticated: this.$auth0.isAuthenticated
-        }
+        LoginButton
     }
 }
 </script>
