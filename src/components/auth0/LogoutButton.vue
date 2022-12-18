@@ -6,8 +6,8 @@
 export default {
     methods: {
         logout() {
-            this.$auth0.logout({ returnTo: window.location.origin });
+            this.$auth0.logout({ returnTo: window.location.origin })
         }
     }
-};
+}
 </script>

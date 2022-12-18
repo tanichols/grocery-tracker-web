@@ -6,8 +6,8 @@
 export default {
     methods: {
         login() {
-            this.$auth0.loginWithRedirect();
+            this.$auth0.loginWithRedirect()
         }
     }
-};
+}
 </script>

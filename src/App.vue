@@ -21,7 +21,7 @@
 
 <script>
 import { RouterLink, RouterView } from 'vue-router'
-import TopBar from './components/layout/TopBar.vue';
+import TopBar from './components/layout/TopBar.vue'
 
 export default {
     components: {
