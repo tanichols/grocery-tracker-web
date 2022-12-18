@@ -1,6 +1,6 @@
 <template>
     <div>
-        <LoginButton v-if="!isUserLoggedIn" />
+        <LoginButton v-if="!isAuthenticated" />
         <LogoutButton v-else />
     </div>
 </template>
@@ -15,8 +15,8 @@ export default {
         LogoutButton
     },
     computed: {
-        isUserLoggedIn() {
-            return this.$auth0.user.value
+        isAuthenticated() {
+            return this.$auth0.isAuthenticated.value
         }
     }
 }
