@@ -19,7 +19,7 @@ app.use(
     createAuth0({
         domain: "dev-tt5z4nesi4knte53.us.auth0.com",
         client_id: "8JpnQUAIbx1YV5L0RfNqUVEUv6G8wvhj",
-        redirect_uri: window.location.origin
+        redirect_uri: `${window.location.origin}/dashboard`
     })
 )
 
