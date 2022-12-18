@@ -14,9 +14,9 @@ export default {
         LoginButton,
         LogoutButton
     },
-    computed: {
-        isAuthenticated() {
-            return this.$auth0.isAuthenticated.value
+    data: function () {
+        return {
+            isAuthenticated: this.$auth0.isAuthenticated
         }
     }
 }
