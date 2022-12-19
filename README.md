@@ -1,3 +1,5 @@
+[![Node.js CI](https://github.com/tanichols/grocery-tracker-web/actions/workflows/node.js.yml/badge.svg)](https://github.com/tanichols/grocery-tracker-web/actions/workflows/node.js.yml)
+
 # grocery-tracker-web
 
 This template should help get you started developing with Vue 3 in Vite.
