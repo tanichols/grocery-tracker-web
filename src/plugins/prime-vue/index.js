@@ -48,7 +48,7 @@ import Button from 'primevue/button'
 // import Knob from 'primevue/knob'
 // import Listbox from 'primevue/listbox'
 // import MegaMenu from 'primevue/megamenu'
-// import Menu from 'primevue/menu'
+import Menu from 'primevue/menu'
 // import Menubar from 'primevue/menubar'
 // import Message from 'primevue/message'
 // import MultiSelect from 'primevue/multiselect'
@@ -154,7 +154,7 @@ export default {
         // app.component('Knob', Knob)
         // app.component('Listbox', Listbox)
         // app.component('MegaMenu', MegaMenu)
-        // app.component('Menu', Menu)
+        app.component('Menu', Menu)
         // app.component('Menubar', Menubar)
         // app.component('Message', Message)
         // app.component('MultiSelect', MultiSelect)
