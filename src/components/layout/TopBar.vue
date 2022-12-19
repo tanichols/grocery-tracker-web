@@ -1,7 +1,7 @@
 <template>
     <div class="flex max-h-4rem shadow-4 p-2">
         <router-link to="/" class="flex-none">
-            <img src="/images/logo.svg" class="h-full" alt="Grocery Tracker">
+            <img src="logo.svg" class="h-full" alt="Grocery Tracker">
         </router-link>
         <div class="flex-grow-1" />
         <Avatar

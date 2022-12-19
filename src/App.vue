@@ -1,5 +1,4 @@
 <template>
-    <h1>Test</h1>
     <TopBar />
     <RouterView />
 </template>
