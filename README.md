@@ -1,4 +1,4 @@
-[![Node.js CI](https://github.com/tanichols/grocery-tracker-web/actions/workflows/node.js.yml/badge.svg)](https://github.com/tanichols/grocery-tracker-web/actions/workflows/node.js.yml)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38edf0da-69c5-4d08-b19d-a1b2ab8deee9/deploy-status)](https://app.netlify.com/sites/grocery-tracker/deploys)
 
 # grocery-tracker-web
 
