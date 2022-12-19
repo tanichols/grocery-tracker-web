@@ -1,6 +1,5 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/38edf0da-69c5-4d08-b19d-a1b2ab8deee9/deploy-status)](https://app.netlify.com/sites/grocery-tracker/deploys)
-
 # grocery-tracker-web
+[![Netlify Status](https://api.netlify.com/api/v1/badges/38edf0da-69c5-4d08-b19d-a1b2ab8deee9/deploy-status)](https://app.netlify.com/sites/grocery-tracker/deploys)
 
 This template should help get you started developing with Vue 3 in Vite.
 
