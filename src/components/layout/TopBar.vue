@@ -7,7 +7,7 @@
         <Avatar
             v-if="isAuthenticated"
             :image="user.picture"
-            class="avatar mr-2 flex-none"
+            class="avatar mr-2 flex-none cursor-pointer"
             shape="circle"
             size="large"
             aria-haspopup="true"
