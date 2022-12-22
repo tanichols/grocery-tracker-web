@@ -1,6 +1,8 @@
 <template>
     <TopBar />
-    <RouterView />
+    <div class="mt-5">
+        <RouterView />
+    </div>
 </template>
 
 <script>
