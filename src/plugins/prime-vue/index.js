@@ -74,8 +74,8 @@ import Menu from 'primevue/menu'
 // import Sidebar from 'primevue/sidebar'
 // import SpeedDial from 'primevue/speeddial'
 // import SplitButton from 'primevue/splitbutton'
-// import Splitter from 'primevue/splitter'
-// import SplitterPanel from 'primevue/splitterpanel'
+import Splitter from 'primevue/splitter'
+import SplitterPanel from 'primevue/splitterpanel'
 // import Steps from 'primevue/steps'
 // import StyleClass from 'primevue/styleclass'
 // import TabMenu from 'primevue/tabmenu'
@@ -179,8 +179,8 @@ export default {
         // app.component('Skeleton', Skeleton)
         // app.component('SpeedDial', SpeedDial)
         // app.component('SplitButton', SplitButton)
-        // app.component('Splitter', Splitter)
-        // app.component('SplitterPanel', SplitterPanel)
+        app.component('Splitter', Splitter)
+        app.component('SplitterPanel', SplitterPanel)
         // app.component('Steps', Steps)
         // app.component('TabMenu', TabMenu)
         // app.component('TabView', TabView)

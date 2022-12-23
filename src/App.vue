@@ -1,7 +1,7 @@
 <template>
-    <TopBar />
-    <div class="mt-5">
-        <RouterView />
+    <div class="flex flex-column gap-3 flex-grow-1 overflow-hidden">
+        <TopBar class="flex" />
+        <RouterView class="flex flex-grow-1 overflow-hidden" />
     </div>
 </template>
 

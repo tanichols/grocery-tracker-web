@@ -9,7 +9,7 @@
 
 <script>
 export default {
-    data: function () {
+    data: () => {
         return {
             user: this.$auth0.user
         }
