@@ -46,7 +46,7 @@ import Button from 'primevue/button'
 // import InputMask from 'primevue/inputmask'
 // import InputNumber from 'primevue/inputnumber'
 // import Knob from 'primevue/knob'
-// import Listbox from 'primevue/listbox'
+import Listbox from 'primevue/listbox'
 // import MegaMenu from 'primevue/megamenu'
 import Menu from 'primevue/menu'
 // import Menubar from 'primevue/menubar'
@@ -69,7 +69,7 @@ import Menu from 'primevue/menu'
 // import SelectButton from 'primevue/selectbutton'
 // import ScrollPanel from 'primevue/scrollpanel'
 // import ScrollTop from 'primevue/scrolltop'
-// import Skeleton from 'primevue/skeleton'
+import Skeleton from 'primevue/skeleton'
 // import Slider from 'primevue/slider'
 // import Sidebar from 'primevue/sidebar'
 // import SpeedDial from 'primevue/speeddial'
@@ -86,7 +86,7 @@ import SplitterPanel from 'primevue/splitterpanel'
 // import Toolbar from 'primevue/toolbar'
 // import TabView from 'primevue/tabview'
 // import TabPanel from 'primevue/tabpanel'
-// import Tag from 'primevue/tag'
+import Tag from 'primevue/tag'
 // import Terminal from 'primevue/terminal'
 // import Timeline from 'primevue/timeline'
 // import ToggleButton from 'primevue/togglebutton'
@@ -152,7 +152,7 @@ export default {
         // app.component('InputSwitch', InputSwitch)
         // app.component('InputText', InputText)
         // app.component('Knob', Knob)
-        // app.component('Listbox', Listbox)
+        app.component('Listbox', Listbox)
         // app.component('MegaMenu', MegaMenu)
         app.component('Menu', Menu)
         // app.component('Menubar', Menubar)
@@ -176,7 +176,7 @@ export default {
         // app.component('ScrollTop', ScrollTop)
         // app.component('Slider', Slider)
         // app.component('Sidebar', Sidebar)
-        // app.component('Skeleton', Skeleton)
+        app.component('Skeleton', Skeleton)
         // app.component('SpeedDial', SpeedDial)
         // app.component('SplitButton', SplitButton)
         app.component('Splitter', Splitter)
@@ -185,7 +185,7 @@ export default {
         // app.component('TabMenu', TabMenu)
         // app.component('TabView', TabView)
         // app.component('TabPanel', TabPanel)
-        // app.component('Tag', Tag)
+        app.component('Tag', Tag)
         // app.component('Textarea', Textarea)
         // app.component('Terminal', Terminal)
         // app.component('TieredMenu', TieredMenu)
